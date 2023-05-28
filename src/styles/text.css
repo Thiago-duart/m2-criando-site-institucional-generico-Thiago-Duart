@@ -1,0 +1,92 @@
+.main__title {
+    font-family: var(--font-family);
+    font-size: var(--font-size-title-1);
+    font-weight: var(--font-weight-large);
+    color: var(--text-color-grey-5);
+
+ }.main__tilte--modifier{
+    color: var(--color-buttons-1);
+
+ }.main__text {
+    width:52%;
+    color: var(--text-color-grey-3);
+    font-size: var(--font-size-text-3);
+    font-weight: var(--font-weight-middle);
+    line-height: var(--font-line-height-text-3);
+ }
+ 
+
+ .about__title{
+    color:var(--text-color-grey-4);
+    font-size: var(--font-size-text-1);
+    font-weight: var(--font-weight-large);
+    
+ }.about__text{
+    text-align: justify;
+    width:70%;
+    color: var(--text-color-grey-3);
+    font-size: var(--font-size-text-3);
+    font-weight: var(--font-weight-middle);
+    line-height: var(--font-line-height-text-3);
+ }
+
+
+.submitQuestion__title{
+   color: var(--text-color-grey-5);
+   font-size: var(--font-size-title-2);
+   font-weight: var(--font-weight-large);
+   line-height: var(--font-line-height-title-2);
+
+}.submitQuestion__text{
+   color: var(--text-color-grey-3);
+   font-size: var(--font-size-text-3);
+   font-weight: var(--font-line-height-text-3);
+   line-height: var(--font-line-height-text-3);
+   width:300px;
+}
+
+
+.question__title{
+   color: var(--text-color-grey-5);
+   font-size: var(--font-size-text-1); 
+   font-weight: var( --font-weight-middle);
+
+}.question__text{
+   width: 60%;
+   color: var(--text-color-grey-3);
+   font-size: var(--font-size-text-3);
+   line-height: var(--font-line-height-text-3);
+}
+
+
+.testimony__title{
+   color: var(--text-color-grey-5);
+   font-size: var(--font-size-text-2); 
+   font-weight: var( --font-weight-middle);
+
+}.testimony__text{
+   color: var(--text-color-grey-3);
+   font-size: var(--font-size-text-3);
+   line-height: var(--font-line-height-text-3);
+   width: 400px;
+}
+
+
+.comment__title{
+   color: var(--text-color-grey-5);
+   font-size: var(--font-size-text-1); 
+   font-weight: var( --font-weight-large);
+   line-height: var(--font-line-height-text-3);
+
+}.comment__text{
+   color: var(--text-color-grey-5);
+   font-size: var(--font-size-text-3);
+   line-height: var(--font-line-height-text-3);
+}
+
+
+.footer__title{
+   color: var(--text-color-grey-5);
+   font-size: var(--font-size-text-1);
+   font-weight: var(--font-weight-middle);
+}

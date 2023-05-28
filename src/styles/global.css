@@ -1,0 +1,42 @@
+* {
+    font-family: var(--font-family);
+}
+
+:root {
+    /*colors*/
+
+    --color-buttons-1: #4c6ef5;
+    --color-buttons-2: #364fc7;
+
+    --background-color-0: #191c1f;
+    --background-color-1: #212529;
+    --background-color-2: #343a40;
+
+    --text-color-grey-3: #818181;
+    --text-color-grey-4: #CED4DA;
+    --text-color-grey-5: #F8F9FA;
+
+    /*Fonts*/
+
+    --font-family: 'inter', sans-serif;
+
+    --font-weight-large: 600;
+    --font-weight-middle: 400;
+
+    --font-size-title-1: 52px;
+    --font-size-title-2: 40px;
+    --font-size-title-3: 32px;
+
+    --font-size-text-1: 28px;
+    --font-size-text-2: 20px;
+    --font-size-text-3: 18px;
+    --font-size-text-4: 14px;
+
+    --font-line-height-title-1: 72px;
+    --font-line-height-title-2: 64px;
+    --font-line-height-title-3: 44px;
+
+    --font-line-height-text-1: 44px;
+    --font-line-height-text-2: 30px;
+    --font-line-height-text-3: 25px;
+}

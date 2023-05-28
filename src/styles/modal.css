@@ -1,0 +1,56 @@
+dialog{
+    height: 450px;
+    width: 450px;
+    background-color: var( --background-color-1);
+    border: 2px solid var(--color-buttons-1);
+}
+.modal__container{
+    display: flex;
+    flex-direction: column;
+}
+.modal__tile{
+    color: var(--text-color-grey-5);
+    font-size: var(--font-size-text-2);
+
+}
+.modal__text{
+    color: var(--text-color-grey-5);
+    line-height: var(--font-line-height-text-3);
+    padding: 35px;
+
+}
+.modal__icon{
+    width: 25px;
+    border-radius: 5px;  
+    cursor: pointer;
+
+}
+.modal__container-modifier{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 35px 0 35px ;
+
+}
+.modal__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+}
+.modal__email{
+    width: 347px;
+    height: 47px;
+
+}
+.modal__email:focus{
+    border-color:var(--color-buttons-1) ;
+    outline: none;
+
+}
+.modal__button-modifier{
+    width: 350px;
+    height: 52px;
+    border: none;
+
+}

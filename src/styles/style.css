@@ -1,1 +1,126 @@
 /* ------------------------------- Coloque sua estilização aqui ------------------------------- */
+.main__container {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   text-align: center;
+   background-color: var(--background-color-1);
+   height: 135vh;
+
+}.main__content {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 10%;
+   gap: 50px;
+
+}.main__button-modifier {
+   width: 110px;
+   height: 50px;
+}
+
+
+.about__container {
+   margin-top: 10%;
+   padding: 80px;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   align-items: center;
+   background-color: var(--background-color-0);
+}
+
+
+.submitQuestion__container {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   background-color: var(--background-color-1);
+  
+}.submitQuestion__content {
+   display: grid;
+   justify-items: center;
+
+}.submitQuestion__content-modifier {
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+   width: 50%;
+}
+
+
+.question__container {
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+
+}.question__content {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 20px;
+}
+
+
+.testimony__container {
+   background-color: var(--background-color-1);
+   display: grid;
+   grid-template-columns: 1.5fr 1fr;
+
+}.testimony__list {
+   margin-top: 100px;
+   display: flex;
+   flex-direction: column;
+
+}.testimony__people {
+   display: flex;
+   margin-left: 150px;
+   margin-bottom: 100px;
+
+}.testimony__student {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+}
+
+
+.comment__container {
+   display: flex;
+   flex-direction: column;
+
+}.comment__content {
+   margin-top: 100px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+   background-color: var(--color-buttons-1);
+   padding: 5%;
+   height: 40%;
+   margin-right: 40%;
+}
+
+
+.footer__container {
+   height: 70px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: var(--background-color-0);
+}
+
+
+@media (max-width: 1000px) {
+   .comment__container {
+      display: none;
+   }
+}
+@media (max-width: 1380px) {
+   .main__container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      text-align: center;
+      background-color: var(--background-color-1);
+      height: 100%;
+   }
+}
