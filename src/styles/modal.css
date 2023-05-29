@@ -54,3 +54,6 @@ dialog{
     border: none;
 
 }
+dialog::backdrop{
+    backdrop-filter: blur(8px);
+}
